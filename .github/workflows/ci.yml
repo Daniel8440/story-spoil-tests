@@ -18,14 +18,14 @@ jobs:
         with:
           dotnet-version: '6.0.x'
 
+      - name: Verify NuGet sources
+        run: dotnet nuget list source
+
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore --source https://api.nuget.org/v3/index.json
 
       - name: Build solution
         run: dotnet build --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test --configuration Release --no-build --verbosity normal
-        env:
-          STORY_USER: ${{ secrets.STORY_USER }}
-          STORY_PASS: ${{ secrets.STORY_PASS }}
+        run: dot
