@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StorySpoil.ApiTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28f5eca950ecc6db946458a7026444a8ca49afea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+994ac96846cb8bb9b9581783839ee38b7ae30347")]
 [assembly: System.Reflection.AssemblyProductAttribute("StorySpoil.ApiTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StorySpoil.ApiTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
